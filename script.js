@@ -21,3 +21,5 @@ const buttons = [
 ];
 
 const buttonContainer = document.querySelector('.buttons');
+
+buttons.forEach((value) => {});
