@@ -48,7 +48,8 @@ function operate(operate, a, b) {
     return subtract(a, b);
   } else if (operate === '*') {
     return multiply(a, b);
-}
+} else if (operate === '/') {
+    return divide(a, b);
 
 buttons.forEach((value) => {
   const button = document.createElement('button');
