@@ -27,5 +27,9 @@ buttons.forEach((value) => {
   button.textContent = value;
 
   buttonContainer.appendChild(button);
+
+  if (value === 'AC' || value === '⌫' || value === '%') {
+    button.style.backgroundColor = '#a5a5a5';
+  }
 });
 // console.log(buttons);
