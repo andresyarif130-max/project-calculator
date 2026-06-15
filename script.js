@@ -43,5 +43,9 @@ buttons.forEach((value) => {
     button.style.backgroundColor = '#333';
     button.style.color = 'white';
   }
+
+  if (value === '0') {
+    button.style.width = '170px';
+  }
 });
 // console.log(buttons);
