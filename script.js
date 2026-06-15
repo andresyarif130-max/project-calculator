@@ -41,7 +41,11 @@ function divide(a, b) {
   return a / b;
 }
 
-function operate(operate, a, b) {}
+function operate(operate, a, b) {
+  if (operate === '+') {
+    return add(a, b);
+  }
+}
 
 buttons.forEach((value) => {
   const button = document.createElement('button');
