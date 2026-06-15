@@ -46,6 +46,7 @@ buttons.forEach((value) => {
 
   if (value === '0') {
     button.style.width = '170px';
+    button.style.borderRadius = '50px';
   }
 });
 // console.log(buttons);
