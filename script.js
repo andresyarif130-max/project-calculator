@@ -100,5 +100,11 @@ buttons.forEach((value) => {
 
       display.textContent = '';
     }
+
+    if (value === '=') {
+      secondNumber = display.textContent;
+
+      let symbol = operator;
+    }
   });
 });
