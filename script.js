@@ -25,9 +25,15 @@ const buttonContainer = document.querySelector('.buttons');
 function add(a, b) {
   return a + b;
 }
+
 function subtract(a, b) {
   return a - b;
 }
+
+function multiply(a, b) {
+  return a * b;
+}
+
 buttons.forEach((value) => {
   const button = document.createElement('button');
   button.textContent = value;
