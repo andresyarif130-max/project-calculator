@@ -22,6 +22,10 @@ const buttons = [
 
 const buttonContainer = document.querySelector('.buttons');
 
+function add(a, b) {
+  return a + b;
+}
+
 buttons.forEach((value) => {
   const button = document.createElement('button');
   button.textContent = value;
@@ -49,4 +53,5 @@ buttons.forEach((value) => {
     button.style.borderRadius = '50px';
   }
 });
+
 // console.log(buttons);
