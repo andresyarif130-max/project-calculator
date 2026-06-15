@@ -39,6 +39,9 @@ buttons.forEach((value) => {
   ) {
     button.style.backgroundColor = '#ff9f0a';
     button.style.color = 'white';
+  } else {
+    button.style.backgroundColor = '#333';
+    button.style.color = 'white';
   }
 });
 // console.log(buttons);
