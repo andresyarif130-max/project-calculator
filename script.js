@@ -105,6 +105,10 @@ buttons.forEach((value) => {
       secondNumber = display.textContent;
 
       let symbol = operator;
+
+      if (operator === 'x') {
+        symbol = '*';
+      }
     }
   });
 });
