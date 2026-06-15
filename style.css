@@ -18,4 +18,8 @@ body {
     max-width: 350px;
 }
 
-#display
+#display {
+    height: 100px;
+    color: white;
+    font-size: 64px;
+}
