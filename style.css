@@ -28,3 +28,9 @@ body {
     align-items: flex-end;
     padding: 20px;
 }
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
