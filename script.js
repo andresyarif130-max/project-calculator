@@ -108,6 +108,8 @@ buttons.forEach((value) => {
 
       if (operator === 'x') {
         symbol = '*';
+      } else if (operator === '÷') {
+        symbol = '/';
       }
     }
   });
