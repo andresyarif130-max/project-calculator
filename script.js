@@ -25,5 +25,7 @@ const buttonContainer = document.querySelector('.buttons');
 buttons.forEach((value) => {
   const button = document.createElement('button');
   button.textContent = value;
+
+  buttonContainer.appendChild(button);
 });
-console.log(buttons);
+// console.log(buttons);
