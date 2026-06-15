@@ -92,5 +92,13 @@ buttons.forEach((value) => {
       }
       display.textContent += value;
     }
+
+    if (value === '+' || value === '-' || value === 'x' || value === '÷') {
+      firstNumber = display.textContent;
+
+      operator = value;
+
+      display.textContent = '';
+    }
   });
 });
