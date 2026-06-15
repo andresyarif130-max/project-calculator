@@ -116,5 +116,13 @@ buttons.forEach((value) => {
       const result = operate(symbol, Number(firstNumber), Number(secondNumber));
       display.textContent = result;
     }
+
+    if (value === 'AC') {
+      firstNumber = '';
+      secondNumber = '';
+      operator = '';
+
+      display.textContent = '0';
+    }
   });
 });
