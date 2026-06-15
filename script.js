@@ -85,5 +85,12 @@ buttons.forEach((value) => {
     button.style.borderRadius = '50px';
   }
 
-  button.addEventListener('click', () => {});
+  button.addEventListener('click', () => {
+    if (!isNaN(value)) {
+      if (display.textContent === '0') {
+        display.textContent = '';
+      }
+      display.textContent += value;
+    }
+  });
 });
