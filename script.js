@@ -113,6 +113,7 @@ buttons.forEach((value) => {
       } else if (operator === '-') {
         symbol = '-';
       }
+      const result = operate(symbol, Number(firstNumber), Number(secondNumber));
     }
   });
 });
