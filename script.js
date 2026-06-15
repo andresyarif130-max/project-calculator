@@ -84,4 +84,6 @@ buttons.forEach((value) => {
     button.style.width = '170px';
     button.style.borderRadius = '50px';
   }
+
+  button.addEventListener('click', () => {});
 });
