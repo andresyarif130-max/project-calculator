@@ -44,7 +44,10 @@ function divide(a, b) {
 function operate(operate, a, b) {
   if (operate === '+') {
     return add(a, b);
-  }
+  } else if (operate === '-') {
+    return subtract(a, b);
+  } else if (operate === '*') {
+    return multiply(a, b);
 }
 
 buttons.forEach((value) => {
