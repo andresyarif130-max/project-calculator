@@ -114,6 +114,7 @@ buttons.forEach((value) => {
         symbol = '-';
       }
       const result = operate(symbol, Number(firstNumber), Number(secondNumber));
+      display.textContent = result;
     }
   });
 });
