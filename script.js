@@ -34,6 +34,13 @@ function multiply(a, b) {
   return a * b;
 }
 
+function divide(a, b) {
+  if (b === 0) {
+    return 'Nice Try!';
+  }
+  return a / b;
+}
+
 buttons.forEach((value) => {
   const button = document.createElement('button');
   button.textContent = value;
