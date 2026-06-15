@@ -110,6 +110,8 @@ buttons.forEach((value) => {
         symbol = '*';
       } else if (operator === '÷') {
         symbol = '/';
+      } else if (operator === '-') {
+        symbol = '-';
       }
     }
   });
