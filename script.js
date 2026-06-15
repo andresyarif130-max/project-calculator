@@ -21,6 +21,7 @@ const buttons = [
 ];
 
 const buttonContainer = document.querySelector('.buttons');
+const display = document.querySelector('#display');
 
 let firstNumber = '';
 let secondNumber = '';
