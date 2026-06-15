@@ -133,5 +133,11 @@ buttons.forEach((value) => {
         display.textContent = '0';
       }
     }
+
+    if (value === '.') {
+      if (!display.textContent.includes('.')) {
+        display.textContent += '.';
+      }
+    }
   });
 });
