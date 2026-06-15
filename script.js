@@ -22,4 +22,8 @@ const buttons = [
 
 const buttonContainer = document.querySelector('.buttons');
 
-buttons.forEach((value) => {});
+buttons.forEach((value) => {
+  const button = document.createElement('button');
+  button.textContent = value;
+});
+console.log(buttons);
