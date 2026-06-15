@@ -30,6 +30,15 @@ buttons.forEach((value) => {
 
   if (value === 'AC' || value === '⌫' || value === '%') {
     button.style.backgroundColor = '#a5a5a5';
+  } else if (
+    value === '÷' ||
+    value === 'x' ||
+    value === '-' ||
+    value === '+' ||
+    value === '='
+  ) {
+    button.style.backgroundColor = '#ff9f0a';
+    button.style.color = 'white';
   }
 });
 // console.log(buttons);
