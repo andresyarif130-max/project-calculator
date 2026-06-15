@@ -41,6 +41,8 @@ function divide(a, b) {
   return a / b;
 }
 
+function operate(operate, a, b) {}
+
 buttons.forEach((value) => {
   const button = document.createElement('button');
   button.textContent = value;
