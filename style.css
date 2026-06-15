@@ -22,4 +22,8 @@ body {
     height: 100px;
     color: white;
     font-size: 64px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
