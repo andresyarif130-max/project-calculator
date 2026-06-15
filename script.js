@@ -22,6 +22,10 @@ const buttons = [
 
 const buttonContainer = document.querySelector('.buttons');
 
+let firstNumber = '';
+let secondNumber = '';
+let operator = '';
+
 function add(a, b) {
   return a + b;
 }
